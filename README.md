@@ -25,3 +25,7 @@
 5. Engineer Transformer class: assemble input embedding, positional embedding, TransformerLayer(s), output linear layer, and softmax layer
 6. Train Model: complete Model Training class. Determine hyperparameters for best model performance
 7. Model Results: 99% accuracy on test dataset   
+
+
+# Conclusion
+Transformers are nothing short of a game changer in the field of Natural Language Processing. Its representation of inputs with queries, keys, and values, and its ability to "focus" on specific parts of an input (for example, if the input is a sentence, it can "focus" on grammar, syntax, punctuation etc.) is simply fantastic ! Building a Transformer from scratch was incredibly challenging - theoretically and computationally - however it was an illumnating experience and I now understand them through-and-through. There have been applications of Transformers in Computer Vision, and seeing as CV is my primary interest, I am excited to try it out for myself !
