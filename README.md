@@ -26,6 +26,8 @@
 6. Train Model: complete Model Training class. Determine hyperparameters for best model performance
 7. Model Results: 99% accuracy on test dataset   
 
+# Results
+![output](https://github.com/adhr1t/Transformer/assets/72672768/4c47d947-c2b3-44b2-bcad-0cbcf8edc556)
 
 # Conclusion
 Transformers are nothing short of a game changer in the field of Natural Language Processing. Its representation of inputs with queries, keys, and values, and its ability to "focus" on specific parts of an input (for example, if the input is a sentence, it can "focus" on grammar, syntax, punctuation etc.) is simply incredible ! Building a Transformer from scratch was challenging - theoretically and computationally - however it was an illuminating, fun experience and I understand them through-and-through.
