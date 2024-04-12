@@ -10,3 +10,12 @@
 
 # Transformer Architecture
 ![transformer](https://github.com/adhr1t/Transformer/assets/72672768/9be3628c-7674-449f-ab40-5b9150cf9481)
+
+# Approach
+1. Build model architecture: create classes for Transformer, TransformerLayer, Positional Encoding, Model Training, and Decoding
+2. Create Attention mechanism:
+     1) generate query, key, and value representation of the inputs.
+     2) Compute the dot-product of the queries with the keys. Scale the result by the square root of d_model. These are the attention scores.
+     3) Optionally apply a mask to the attention scores.
+     4) Feed the attention scores into a softmax function to get the attention weights
+     5) Compute the dot-product of the attention weights with the values to get the scaled values.
