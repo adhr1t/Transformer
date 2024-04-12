@@ -20,5 +20,8 @@
      4) Feed the attention scores into a softmax function to get the attention weights
      5) Compute the dot-product of the attention weights with the values to get the scaled values
     ![attn](https://github.com/adhr1t/Transformer/assets/72672768/59cdb9f4-d2af-48bf-a49a-7ce676ba1d31)
-
-3. 
+3. Complete Feed Forward layer
+4. Establish Residual Connection: add Scaled Values (output of Attention mechanism) and output of Feed Forward layer to input
+5. Engineer Transformer class: assemble input embedding, positional embedding, TransformerLayer(s), output linear layer, and softmax layer
+6. Train Model: complete Model Training class. Determine hyperparameters for best model performance.
+7. Model Results: 99% accuracy on test dataset   
