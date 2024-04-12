@@ -23,5 +23,5 @@
 3. Complete Feed Forward layer
 4. Establish Residual Connection: add Scaled Values (output of Attention mechanism) and output of Feed Forward layer to input
 5. Engineer Transformer class: assemble input embedding, positional embedding, TransformerLayer(s), output linear layer, and softmax layer
-6. Train Model: complete Model Training class. Determine hyperparameters for best model performance.
+6. Train Model: complete Model Training class. Determine hyperparameters for best model performance
 7. Model Results: 99% accuracy on test dataset   
