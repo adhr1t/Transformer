@@ -257,7 +257,7 @@ def train_classifier(args, train, dev):
 
     optimizer = optim.Adam(model.parameters(), lr=5e-5)
 
-    num_epochs = 2  # originally 10. Profs said 5 should be enough
+    num_epochs = 5  # originally 10. Profs said 5 should be enough
     for t in range(0, num_epochs):
         # print("Epoch", t)
         count = 0
@@ -265,9 +265,9 @@ def train_classifier(args, train, dev):
         loss_this_epoch = 0.0
         random.seed(t)
         # You can use batching if you'd like
-        length = int(len(train) * .8)
-        ex_idxs = [i for i in range(0, length)] # this is where I'd batch if I wanted to
-        # ex_idxs = [i for i in range(0, len(train))] # this is where I'd batch if I wanted to
+        # length = int(len(train) * .8)
+        # ex_idxs = [i for i in range(0, length)] # this is where I'd batch if I wanted to
+        ex_idxs = [i for i in range(0, len(train))] # this is where I'd batch if I wanted to
 
         random.shuffle(ex_idxs) # shuffles the indexes
         loss_fcn = nn.NLLLoss()
